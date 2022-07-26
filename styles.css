@@ -15,4 +15,12 @@ body {
 #main-doc {
   width: 80vw;
   margin-left: 20vw;
+}
+
+.green {
+  background-color: rgb(63, 168, 63);
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 1px;
 }/*# sourceMappingURL=styles.css.map */
