@@ -6,6 +6,10 @@ body {
   display: flex;
 }
 
+td {
+  padding: 0 10px;
+}
+
 #navbar {
   display: flex;
   flex-direction: column;
