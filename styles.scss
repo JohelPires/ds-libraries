@@ -6,6 +6,8 @@ body {
 }
 
 #navbar {
+  display: flex;
+  flex-direction: column;
   width: 20vw;
   overflow: auto;
   position: fixed;
@@ -18,7 +20,13 @@ body {
 .green {
   background-color: rgb(63, 168, 63);
   color: white;
+}
+.yellow {
+  background-color: rgb(251, 255, 0);
+  color: black;
+}
+.badge {
   border-radius: 3px;
   font-size: 12px;
-  padding: 1px;
+  padding: 1px 5px;
 }

@@ -5,39 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Data Libraries - Documentation Pages</title>
+    <title>Biblioteca de estruturas de dados - Documentação técnica</title>
   </head>
   <body>
     <nav id="navbar">
       <h1>Data Structures Libraries</h1>
-      <a href="#data_structure_x" class="nav-link">Topic 1</a>
-      <a href="#" class="nav-link">Topic 2</a>
-      <a href="#" class="nav-link">Topic 3</a>
-      <a href="#" class="nav-link">Topic 4</a>
-      <a href="#data_structure_y" class="nav-link">Topic 5</a>
+      <a href="#introduction" class="nav-link">Introdução</a>
+      <a href="#howto" class="nav-link">Como utilizar as bibliotecas</a>
+      <a href="#linkedlists" class="nav-link">Linked Lists</a>
+      <a href="#queues" class="nav-link">Queues</a>
+      <a href="#binaryheap" class="nav-link">Binary Heap</a>
+      <a href="#graph" class="nav-link">Graph</a>
     </nav>
     <main id="main-doc">
-      <section id="data_structure_x" class="main-section">
-        <h1>Data Structure X</h1>
+      <section id="introduction" class="main-section">
+        <h1>Indrodução</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est tempora
-          suscipit, sit dolorum illo consectetur facilis sequi? Mollitia cumque
-          voluptate iusto est voluptatibus! Doloribus quaerat doloremque
-          quibusdam necessitatibus nobis perspiciatis sit quam officia, fugit,
-          culpa officiis odio quasi facilis error maxime inventore expedita sunt
-          assumenda corporis ab eos dolorem quis.
+          Aqui estão reunidas algumas bibliotecas de estruturas de dados em
+          javascript para uso público. O objetivo do desenvolvimento dessas
+          bibliotecas é apenas o meu estudo pessoal das estruturas de dados aqui
+          listadas. Sinta-se à vontade para utilizá-las.
         </p>
-        <code>This is some code</code>
-        <p>search()</p>
-        <p>time complexity: <span class="green">O(logN)</span></p>
-        <p>space complexity: <span class="yellow">O(N)</span></p>
+        <p>As estruturas de dados implementadas e disponíveis aqui são:</p>
+        <ul>
+          <li>
+            Linked Lists
+            <ul>
+              <li>Singly Linked</li>
+              <li>Doubly Linked</li>
+            </ul>
+          </li>
+          <li>Queues e Stacks</li>
+          <li>Binary Heap</li>
+          <li>Priority Queues</li>
+          <li>Graphs</li>
+        </ul>
+        <p>
+          Cada uma das estruturas de dados é apresentada aqui com seus métodos e
+          forma de utilização, bem como a sua respectiva marcação de
+          complexidade de tempo e de espaço, com marcações como esta:
+          <span class="green badge">O(logN)</span> ou
+          <span class="yellow badge">O(N)</span>. As cores são de acordo com o
+          gráfico:
+        </p>
+        <img
+          src="/imgs/bigo.jpeg"
+          alt="big O notation chart"
+          srcset=""
+          width="600px"
+        />
+      </section>
 
+      <section id="howto" class="main-section">
+        <h1>Como utilizar as bibliotecas</h1>
+        <p>
+          Para utilizar qualquer uma das bibliotecas aqui apresentadas, baixe o
+          arquivo correspondente a à estrutura de dados desejada e importe o
+          arquivo no seu código com o seguinte comando: (usando linkedlist.js
+          como exemplo)
+        </p>
+        <code>import linkedlist.js</code>
+      </section>
+
+      <section id="linkedlists" class="main-section">
+        <h1>Linked Lists</h1>
+        <p>[breve descrição das linked lists]</p>
+        <code>This is some code</code>
+        <h2>Singly Linked list</h2>
+
+        <a href="/libraries/linkedList.js">linkedlist.js</a>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est tempora
+          suscipit, sit dolorum illo consectetur facilis sequi? Mollitia cumque
+          voluptate iusto est voluptatibus! Doloribus quaerat doloremque
+          quibusdam necessitatibus nobis perspiciatis sit quam officia, fugit,
+          culpa officiis odio quasi facilis error maxime inventore expedita sunt
+          assumenda corporis ab eos dolorem quis.
+        </p>
         <ul>
           <li>something</li>
         </ul>
       </section>
-      <section class="main-section">
-        <h1>Data Structure X</h1>
+      <section id="queues" class="main-section">
+        <h1>Queues</h1>
         <p>Description</p>
         <code>This is some code</code>
         <p>
@@ -52,24 +102,8 @@
           <li>something</li>
         </ul>
       </section>
-      <section class="main-section">
-        <h1>Data Structure X</h1>
-        <p>Description</p>
-        <code>This is some code</code>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est tempora
-          suscipit, sit dolorum illo consectetur facilis sequi? Mollitia cumque
-          voluptate iusto est voluptatibus! Doloribus quaerat doloremque
-          quibusdam necessitatibus nobis perspiciatis sit quam officia, fugit,
-          culpa officiis odio quasi facilis error maxime inventore expedita sunt
-          assumenda corporis ab eos dolorem quis.
-        </p>
-        <ul>
-          <li>something</li>
-        </ul>
-      </section>
-      <section class="main-section">
-        <h1>Data Structure X</h1>
+      <section id="binaryheap" class="main-section">
+        <h1>Binary Heap</h1>
         <p>Description</p>
         <code>This is some code</code>
         <p>more description</p>
@@ -81,8 +115,8 @@
           <li>something</li>
         </ul>
       </section>
-      <section id="data_structure_y" class="main-section">
-        <h1>Data Structure Y</h1>
+      <section id="graph" class="main-section">
+        <h1>Graph</h1>
         <p>Description</p>
         <code>This is some code</code>
         <p>more description</p>
