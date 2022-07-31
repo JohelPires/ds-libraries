@@ -32,6 +32,10 @@ td {
   position: fixed;
   background-color: $dark;
   color: $white;
+
+  h1 {
+    padding: 10px;
+  }
 }
 #main-doc {
   width: 80vw;
@@ -39,7 +43,11 @@ td {
 }
 
 .main-section {
-  padding: 20px;
+  padding: 30px;
+
+  h1 {
+    border-bottom: 1px dotted #393e46;
+  }
 }
 
 .nav-link {
