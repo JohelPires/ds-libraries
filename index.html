@@ -44,16 +44,18 @@
           Cada uma das estruturas de dados é apresentada aqui com seus métodos e
           forma de utilização, bem como a sua respectiva marcação de
           complexidade de tempo e de espaço, com marcações como esta:
-          <span class="green badge">O(logN)</span> ou
+          <span class="lightgreen badge">O(logN)</span> ou
           <span class="yellow badge">O(N)</span>. As cores são de acordo com o
           gráfico:
         </p>
-        <img
-          src="/imgs/bigo.jpeg"
-          alt="big O notation chart"
-          srcset=""
-          width="600px"
-        />
+        <p class="center">
+          <img
+            src="/imgs/bigo.jpeg"
+            alt="big O notation chart"
+            srcset=""
+            width="600px"
+          />
+        </p>
       </section>
 
       <section id="Como_Utilizar" class="main-section">
@@ -86,23 +88,30 @@
         <table>
           <tr>
             <td><code>push(val)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td><p>Adiciona um item ao final da lista</p></td>
+            <td><p class="green badge">O(1)</p></td>
           </tr>
           <tr>
             <td><code>pop()</code></td>
-            <td><p>Adiciona um item à lista</p></td>
-          </tr>
-          <tr>
-            <td><code>shift()</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td><p>Remove um item do final da lista</p></td>
+            <td><p class="green badge">O(1)</p></td>
           </tr>
           <tr>
             <td><code>unshift(val)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td><p>Adiciona um item ao início da lista</p></td>
+            <td><p class="green badge">O(1)</p></td>
+          </tr>
+          <tr>
+            <td><code>shift()</code></td>
+            <td><p>Remove um item do início da lista</p></td>
+            <td><p class="green badge">O(1)</p></td>
           </tr>
           <tr>
             <td><code>get(idx)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td>
+              <p>Retorna o valor armazenado no índice <code>idx</code></p>
+            </td>
+            <td><p class="yellow badge">O(n)</p></td>
           </tr>
           <tr>
             <td><code>set(val, idx)</code></td>
