@@ -193,7 +193,7 @@
         <a href="/libraries/binaryHeap.js">binaryHeap.js</a>
 
         <h3>Criando uma Binary Heap</h3>
-        <p>Para criar uma nova Queue List com o nome 'binaryHeap' utilize:</p>
+        <p>Para criar uma nova Binary Heap com o nome 'binaryHeap' utilize:</p>
         <code>const binaryHeap = new BinaryHeap()</code>
 
         <h3>Métodos</h3>
@@ -201,11 +201,11 @@
         <table>
           <tr>
             <td><code>insert(val)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td><p>Insere um novo item à binary heap.</p></td>
           </tr>
           <tr>
             <td><code>extractMax()</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td><p>Remove e retorna o valor máximo da binary heap</p></td>
           </tr>
         </table>
       </section>
@@ -224,23 +224,37 @@
         <table>
           <tr>
             <td><code>addVertex(vertex)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td><p>Adiciona um novo vértice ao graph</p></td>
           </tr>
           <tr>
             <td><code>addEdge(vertex1, vertex2)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td>
+              <p>
+                Adiciona um edge ao graph interligando o vertex1 ao vertex2.
+              </p>
+            </td>
           </tr>
           <tr>
             <td><code>removeEdge(vertex1, vertex2)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td><p>Remove o edge que interliga o vertex1 ao vertex2</p></td>
           </tr>
           <tr>
             <td><code>dfs(start)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td>
+              <p>
+                Mostra os vértices em sequência utilizando o modo Depth-First
+                Search e iniciando por <code>start</code>
+              </p>
+            </td>
           </tr>
           <tr>
             <td><code>bfs(start)</code></td>
-            <td><p>Adiciona um item à lista</p></td>
+            <td>
+              <p>
+                Mostra os vértices em sequência utilizando o modo Breadth-First
+                Search e iniciando por <code>start</code>
+              </p>
+            </td>
           </tr>
         </table>
       </section>
